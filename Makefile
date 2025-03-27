@@ -26,6 +26,6 @@ $(ISO_REAR_VIEW): $(PCB_FILE) | $(RENDER_DIR)
 	$(RENDER) $(RENDER_SIZE) --side top --zoom 0.75 --rotate "315,0,45" $< --output $@
 
 clean:
-	rm -rf $(RENDER_DIR)
+	rm ${TOP_VIEW} ${BOTTOM_VIEW} ${ISO_VIEW} ${ISO_REAR_VIEW}
 
 .PHONY: all clean
