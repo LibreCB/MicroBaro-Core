@@ -12,6 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install KiCad
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+          sudo apt update
+          sudo apt install --install-recommends kicad
       - run: make all
       - uses: EndBug/add-and-commit@v9
         with:
