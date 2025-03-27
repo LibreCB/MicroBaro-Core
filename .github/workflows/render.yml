@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - '*.kicad_pcb'
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   render:
