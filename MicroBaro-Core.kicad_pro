@@ -72,6 +72,30 @@
           "Despite the courtyard overlap, no screw head should intersect the USB port"
         ],
         [
+          "courtyards_overlap|98265000|61679358|8e9c5c21-b9a6-4ab1-a9c5-bc380a833bbb|f4d4bcd5-38cc-448c-bcdb-e952a9607a06",
+          "Header will not be soldered and board will not be mounted during operation"
+        ],
+        [
+          "hole_clearance|112495000|63700000|6fea47c4-922f-4066-b629-ce122e9bf42e|35781ff2-39b7-412a-af48-fb8a863c04dd",
+          ""
+        ],
+        [
+          "hole_clearance|112495000|63700000|6fea47c4-922f-4066-b629-ce122e9bf42e|7864ab22-d725-4f98-b59c-82fe6c1d9411",
+          ""
+        ],
+        [
+          "hole_clearance|112495000|69800000|b6a7b294-1a8f-4992-b7b5-da8b405f2db5|af1150da-55c1-4eab-b7f2-e7b4e81c9a83",
+          ""
+        ],
+        [
+          "hole_clearance|112495000|69800000|b6a7b294-1a8f-4992-b7b5-da8b405f2db5|c498a623-a4d9-4f67-89bb-f885fff3f441",
+          ""
+        ],
+        [
+          "hole_clearance|113861008|64100000|4615d301-56f1-4d27-ac29-aace47b78cad|6fea47c4-922f-4066-b629-ce122e9bf42e",
+          ""
+        ],
+        [
           "padstack|98740000|74000000|2019d976-31a1-41bc-b826-0cf683ec0917|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -80,7 +104,19 @@
           ""
         ],
         [
-          "silk_over_copper|105400000|77300000|6829ffdd-ba3f-48ce-83be-320ddbb8ecf7|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|106387305|64949629|10ec7284-49de-4710-b629-376534a7ec96|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|115267531|75318700|f2b85936-c5bf-4765-b0a1-700455ade2e7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|98431533|74377319|f5bc05df-c198-411d-bacc-35cd970da597|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|98838171|65505988|ddb44c81-b382-4dc6-bddf-98c9c291d410|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -88,7 +124,23 @@
           ""
         ],
         [
-          "silk_overlap|103191065|61840000|55f6f6dd-5162-4eb0-bb81-cfe761b8f758|cb305d27-2247-43ee-a5dd-c493b478a53e",
+          "silk_over_copper|99140099|73692993|6e378ae9-504d-418e-9573-6f4f5e2d607d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|103191065|61840000|7b0c8d4a-4e7c-4786-b5ec-fb34afdbb79e|cb305d27-2247-43ee-a5dd-c493b478a53e",
+          ""
+        ],
+        [
+          "silk_overlap|95120000|73750532|8ca9dd2e-ca40-4bd1-809c-a0ea9312798e|f4382a14-600e-4362-9c79-a4fcab8dd245",
+          ""
+        ],
+        [
+          "silk_overlap|96854913|74420000|65613f84-2f0d-476d-be4c-9a9a98bdcda9|f5bc05df-c198-411d-bacc-35cd970da597",
+          ""
+        ],
+        [
+          "silk_overlap|97880000|74365537|3e328d40-e3ec-4ba3-87e6-db4dff2f1b8d|f5bc05df-c198-411d-bacc-35cd970da597",
           ""
         ]
       ],
