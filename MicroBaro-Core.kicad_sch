@@ -6557,8 +6557,6 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-=======
 		(property "DigiKey Part #" "455-1704-ND"
 			(at 107.95 66.04 0)
 			(effects
@@ -6586,7 +6584,6 @@
 				(hide yes)
 			)
 		)
->>>>>>> 2ef311c (Add missing JST part number)
 		(pin "2"
 			(uuid "e580eaef-5e37-4483-8b23-d0323c9f9f1d")
 		)
