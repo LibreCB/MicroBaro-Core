@@ -35,5 +35,5 @@ jobs:
         with:
           default:author: github_actor
           message: 'Render PCB'
-          add: 'assets/*.png'
+          add: 'assets/*.png --force'
       
