@@ -1,6 +1,6 @@
 <p align="center">
   <img src="/assets/iso.png" height="256" />
-  <img src="/assets/iso-upside-down.png" height="256" />
+  <img src="/assets/iso-upside-down-rear.png" height="256" />
 </p>
 
 # µBaro Core
