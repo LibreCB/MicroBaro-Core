@@ -15,15 +15,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install KiCad
+      - name: Add kicad repository
         run: |
           sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
           sudo apt update
       - uses: awalsh128/cache-apt-pkgs-action@latest
+        name: Install KiCad
         with:
           packages: kicad kicad-packages3d kicad-footprints kicad-libraries
           version: 1.0
+      - run: |
+          git clone https://github.com/ryanoasis/nerd-fonts.git --depth 1
+          cd nerd-fonts
+          ./install.sh JetBrainsMono
+        name: Install fonts
       - run: make clean && make all
+        name: Render PCB
       - uses: EndBug/add-and-commit@v9
         with:
           default:author: github_actor
