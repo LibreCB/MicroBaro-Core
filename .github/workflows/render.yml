@@ -29,7 +29,7 @@ jobs:
         with:
           path: nerd-fonts
           key: nerd-fonts
-      - run: git clone https://github.com/ryanoasis/nerd-fonts.git
+      - run: git clone https://github.com/ryanoasis/nerd-fonts.git --depth 1
         if: steps.cache-fonts.outpus.cache-hit != 'true'
         name: Clone fonts
       - run: |
