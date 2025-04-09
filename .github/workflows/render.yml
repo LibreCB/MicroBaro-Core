@@ -24,18 +24,6 @@ jobs:
         with:
           packages: kicad kicad-packages3d kicad-footprints kicad-libraries
           version: 1.0
-      - uses: actions/cache@v4
-        id: cache-fonts
-        with:
-          path: nerd-fonts
-          key: nerd-fonts
-      - run: git clone https://github.com/ryanoasis/nerd-fonts.git --depth 1
-        if: steps.cache-fonts.outpus.cache-hit != 'true'
-        name: Clone fonts
-      - run: |
-          cd nerd-fonts
-          ./install.sh JetBrainsMono
-        name: Install fonts
       - run: make clean && make all
         name: Render PCB
       - uses: EndBug/add-and-commit@v9
