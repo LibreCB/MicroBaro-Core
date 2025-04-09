@@ -29,10 +29,12 @@ jobs:
         with:
           path: nerd-fonts
           key: nerd-fonts
+      - run: git clone https://github.com/ryanoasis/nerd-fonts.git
+        if: steps.cache-fonts.outpus.cache-hit != 'true'
+        name: Clone fonts
       - run: |
           cd nerd-fonts
           ./install.sh JetBrainsMono
-        if: steps.cache-fonts.outpus.cache-hit != 'true'
         name: Install fonts
       - run: make clean && make all
         name: Render PCB
