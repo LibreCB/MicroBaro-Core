@@ -1,0 +1,128 @@
+(footprint "SDAxxH1SBD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "abcf8366-e982-4a93-9f9a-1e6893684922")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SDAxxH1SBD"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3428ce2b-7b82-469e-abf7-7cde304270b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ckswitches.com/media/1327/sda.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51412ff0-3a3a-4cf3-9ffb-10ab1c3fc129")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SDA low profile DIP switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "110fffe4-d1cd-4cc7-880d-b08a9ce4aa23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.26 -2.75)
+		(end -2.26 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9944c64-564b-40a1-ac60-2aac896bf26d")
+	)
+	(fp_line
+		(start 2.26 -2.75)
+		(end 2.26 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cde2bb5f-c016-4501-ac07-6d96ef0a8443")
+	)
+	(fp_rect
+		(start -0.65 -0.975)
+		(end 0.65 0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6fc143d5-d65a-4070-a8aa-4f20404fb743")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "012fed52-9bf7-4d13-aa63-54a4c68d2e6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 4.05)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "17d6ba7f-fe49-4d29-beca-1a5b39d09f2c")
+	)
+	(pad "2" smd roundrect
+		(at 0 -4.05)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "94066413-34f6-4cd3-b97c-e77332765961")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Project.3dshapes/SDAxxH1SBD.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
