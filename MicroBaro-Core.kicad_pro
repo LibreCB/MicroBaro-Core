@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -85,11 +85,11 @@
         ],
         [
           "courtyards_overlap|111559797|61435000|825e6df1-f952-4163-bef9-8e7ff7b8a19f|bd2d05a8-2d2d-4a95-a188-626a960226b1",
-          "Courtyard should be improved, collision not expected"
+          ""
         ],
         [
           "courtyards_overlap|98265000|61679358|8e9c5c21-b9a6-4ab1-a9c5-bc380a833bbb|f4d4bcd5-38cc-448c-bcdb-e952a9607a06",
-          "Header will not be populated"
+          ""
         ],
         [
           "hole_clearance|112495000|63700000|6fea47c4-922f-4066-b629-ce122e9bf42e|35781ff2-39b7-412a-af48-fb8a863c04dd",
@@ -114,62 +114,6 @@
         [
           "padstack|98750000|66000000|56c0efee-57d7-48a9-8fac-6b0af94de586|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-<<<<<<< HEAD
-          "silk_over_copper|98900000|74460992|83ca18a3-2747-4f88-9dbf-dcf35d669ae1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|103191065|61840000|7b0c8d4a-4e7c-4786-b5ec-fb34afdbb79e|cb305d27-2247-43ee-a5dd-c493b478a53e",
-          ""
-||||||| parent of 7dee8c0 (Next revision)
-          "silk_over_copper|106387305|64949629|10ec7284-49de-4710-b629-376534a7ec96|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|115267531|75318700|f2b85936-c5bf-4765-b0a1-700455ade2e7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|98431533|74377319|f5bc05df-c198-411d-bacc-35cd970da597|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|98838171|65505988|ddb44c81-b382-4dc6-bddf-98c9c291d410|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|98900000|74460992|83ca18a3-2747-4f88-9dbf-dcf35d669ae1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|99140099|73692993|6e378ae9-504d-418e-9573-6f4f5e2d607d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|103191065|61840000|7b0c8d4a-4e7c-4786-b5ec-fb34afdbb79e|cb305d27-2247-43ee-a5dd-c493b478a53e",
-          ""
-        ],
-        [
-          "silk_overlap|95120000|73750532|8ca9dd2e-ca40-4bd1-809c-a0ea9312798e|f4382a14-600e-4362-9c79-a4fcab8dd245",
-          ""
-        ],
-        [
-          "silk_overlap|96854913|74420000|65613f84-2f0d-476d-be4c-9a9a98bdcda9|f5bc05df-c198-411d-bacc-35cd970da597",
-          ""
-        ],
-        [
-          "silk_overlap|97880000|74365537|3e328d40-e3ec-4ba3-87e6-db4dff2f1b8d|f5bc05df-c198-411d-bacc-35cd970da597",
-          ""
-=======
-          "silk_over_copper|115267531|75318700|f2b85936-c5bf-4765-b0a1-700455ade2e7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|95120000|73750532|8ca9dd2e-ca40-4bd1-809c-a0ea9312798e|f4382a14-600e-4362-9c79-a4fcab8dd245",
-          ""
->>>>>>> 7dee8c0 (Next revision)
         ]
       ],
       "meta": {
@@ -252,7 +196,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -260,7 +204,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": true,
+          "td_ontrackend": false,
           "td_onvia": true
         }
       ],
@@ -561,7 +505,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -576,6 +520,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -628,7 +573,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "production/bom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -650,46 +595,16 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
           "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC Part #",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -705,26 +620,32 @@
         },
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
+          "label": "DigiKey Part #",
+          "name": "DigiKey Part #",
+          "show": true
         },
         {
           "group_by": false,
-          "label": "Sim.Pin",
-          "name": "Sim.Pin",
-          "show": false
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
         },
         {
-          "group_by": true,
-          "label": "DigiKey Part #",
-          "name": "DigiKey Part #",
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
           "show": true
         },
         {
@@ -735,8 +656,32 @@
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
         }
       ],
@@ -760,14 +705,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
